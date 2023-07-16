@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 
 
-public class DrawClock extends JPanel {
+public class ClockDrawer extends JPanel {
 
 
     @Override

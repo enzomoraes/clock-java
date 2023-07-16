@@ -10,7 +10,7 @@ public class Clock {
     public static void start() {
         frame = new JFrame("Clock");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        DrawClock clockDrawer = new DrawClock();
+        ClockDrawer clockDrawer = new ClockDrawer();
 
         frame.getContentPane().add(clockDrawer);
         frame.pack();
